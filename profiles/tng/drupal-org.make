@@ -15,6 +15,7 @@ projects[admin_menu][version] = "3.0-rc5"
 projects[blockify][version] = "1.2"
 projects[breakpoints][version] = "1.2"
 projects[ckeditor_styles][version] = "1.x-dev"
+projects[conditional_fields][version] = "3.x-dev"
 projects[context][version] = "3.6"
 projects[content_taxonomy][version] = "1.0-beta2"
 projects[ctools][version] = "1.4"
@@ -97,3 +98,5 @@ projects[drupal][patch][] = "http://drupal.org/files/text-plain-1152216-24.patch
 ; Fix dependency checking for install profiles.
 projects[drupal][patch][] = "http://drupal.org/files/1093420-22.patch"
 
+; Fix jquery when conditional fields and entity translations are both used.
+projects[panels][patch][] = "https://www.drupal.org/files/issues/conditional_fields-entity-translation-support-2125191-2.patch"

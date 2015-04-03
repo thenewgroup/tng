@@ -54,6 +54,7 @@ dependencies[] = user
 
 ; Fields
 dependencies[] = addressfield
+dependencies[] = conditional_fields
 dependencies[] = date
 dependencies[] = email
 dependencies[] = entityreference
