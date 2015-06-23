@@ -99,4 +99,4 @@ projects[drupal][patch][] = "http://drupal.org/files/text-plain-1152216-24.patch
 projects[drupal][patch][] = "http://drupal.org/files/1093420-22.patch"
 
 ; Fix jquery when conditional fields and entity translations are both used.
-projects[panels][patch][] = "https://www.drupal.org/files/issues/conditional_fields-entity-translation-support-2125191-2.patch"
+projects[conditional_fields][patch][] = "https://www.drupal.org/files/issues/conditional_fields-entity-translation-support-2125191-2.patch"
