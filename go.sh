@@ -6,7 +6,7 @@ drush si tng --db-url='mysql://root:root@localhost/drupal7' -y
 chmod -R +w sites/default
 
 # Set site base_url
-echo '$base_url = "http://.drupal7.dev";' >> sites/default/settings.php
+echo '$base_url = "http://drupal7.dev";' >> sites/default/settings.php
 
 # Not sure why this was created
 rm -rf public\:
