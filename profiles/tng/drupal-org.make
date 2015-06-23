@@ -66,6 +66,8 @@ projects[stage_file_proxy][subdir] = "devel"
 projects[stage_file_proxy][version] = "1.7"
 projects[styleguide][subdir] = "devel"
 projects[styleguide][version] = "1.1"
+projects[views_cache_bully][subdir] = "devel"
+projects[views_cache_bully][version] = "3.1"
 
 ; +++++ Themes +++++
 
